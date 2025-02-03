@@ -29,16 +29,4 @@ function SearchBar({ allProducts, setAllProducts }) {
 
 export default SearchBar;
 
-// const [search, setSearch] = useState("");
-//   const [filteredProducts, setFilteredProducts] = useState(allProducts);
 
-//   useEffect(() => {
-//     if (search === "") {
-//       setFilteredProducts(allProducts); // If search is empty, show all products
-//     } else {
-//       const filtered = allProducts.filter((product) =>
-//         product.productName.toLowerCase().includes(search.toLowerCase())
-//       );
-//       setFilteredProducts(filtered);
-//     }
-//   }, [search, allProducts]);
